@@ -9,10 +9,14 @@ Methods of detecting license plates of vehicles and extracting its text/number i
 ### Dataset
 The dataset is from Roboflow, https://universe.roboflow.com/moin/car_license_plates/dataset/2, with 712 images, train set, valid set, and test set.
 
-### Epochs
-The number of epochs = 100
+### Training
+Trained with the number of epochs = 100, weight = yolov8m.pt
 
 ### Detection from images
 ![license_plate_detection](https://github.com/user-attachments/assets/35538943-9354-4a36-b068-653c65744e70)
 
+### Extracting text / number
+The easyocr package is used to extract the license plate information.
+
 ### Detection from videos
+Import a video, then run the detection routine.
